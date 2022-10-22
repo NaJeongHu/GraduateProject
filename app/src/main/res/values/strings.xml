@@ -1,3 +1,57 @@
 <resources>
     <string name="app_name">GraduateProject</string>
+
+    <string name="q1">오늘의 기분은 어떤가요?</string>
+    <string name="q2">지금 듣고 싶은 노래는?</string>
+    <string name="q3">지금 순간이동을 할 수 있다면?</string>
+    <string name="q4">지금 당신에게 힘이 돼주는 음료는?</string>
+    <string name="q5">오늘 당신을 표현하는 단어는?</string>
+    <string name="q6">오늘 당신의 무드는?</string>
+    <string name="q7">오늘따라 만지고 싶은 촉감은?</string>
+    <string name="q8">오늘 당신을 표현하는 향기는? </string>
+
+    <string name="q1_1">평온해</string>
+    <string name="q1_2">행복해</string>
+    <string name="q1_3">우울해</string>
+    <string name="q1_4">흥분돼</string>
+
+    <string name="q2_1">재즈</string>
+    <string name="q2_2">댄스</string>
+    <string name="q2_3">힙합</string>
+    <string name="q2_4">락</string>
+
+    <string name="q3_1">카페</string>
+    <string name="q3_2">놀이동산</string>
+    <string name="q3_3">산과 바다</string>
+    <string name="q3_4">공연장</string>
+
+    <string name="q4_1">달달한 라떼</string>
+    <string name="q4_2">에이드</string>
+    <string name="q4_3">차</string>
+    <string name="q4_4">아메리카노</string>
+
+    <string name="q5_1">반짝반짝</string>
+    <string name="q5_2">둥실둥실</string>
+    <string name="q5_3">성큼성큼</string>
+    <string name="q5_4">두근두근</string>
+
+    <string name="q6_1">따사로운 햇살</string>
+    <string name="q6_2">시원한 바람</string>
+    <string name="q6_3">부슬부슬 내리는 비</string>
+    <string name="q6_4">코끝이 시린 공기</string>
+
+    <string name="q7_1">보들</string>
+    <string name="q7_2">매끈</string>
+    <string name="q7_3">촉촉</string>
+    <string name="q7_4">바삭</string>
+
+    <string name="q8_1">머스크 향</string>
+    <string name="q8_2">그린 향</string>
+    <string name="q8_3">시트러스 향</string>
+    <string name="q8_4">우디 향</string>
+
+    <string name="go_first_page">처음으로</string>
+
+    <string name="loading_text">당신을 위한 칵테일을\n제조중이예요</string>
+
 </resources>

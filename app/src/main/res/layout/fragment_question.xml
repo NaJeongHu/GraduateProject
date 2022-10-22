@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/q_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/circle_indicator_1"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/q_circle_future"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="125dp"/>
+
+    <ImageView
+        android:id="@+id/circle_indicator_2"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/q_circle_future"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="217dp"
+        android:layout_marginTop="125dp"/>
+
+    <ImageView
+        android:id="@+id/circle_indicator_3"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/q_circle_future"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="283dp"
+        android:layout_marginTop="125dp"/>
+
+    <ImageView
+        android:id="@+id/circle_indicator_4"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/q_circle_future"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="125dp"/>
+
+    <ImageView
+        android:id="@+id/circle_indicator_5"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/q_circle_future"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="416dp"
+        android:layout_marginTop="125dp"/>
+
+    <ImageView
+        android:id="@+id/circle_indicator_6"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/q_circle_future"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="484dp"
+        android:layout_marginTop="125dp"/>
+
+    <ImageView
+        android:id="@+id/circle_indicator_7"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/q_circle_future"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="552dp"
+        android:layout_marginTop="125dp"/>
+
+    <ImageView
+        android:id="@+id/circle_indicator_8"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/q_circle_future"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="618dp"
+        android:layout_marginTop="125dp"/>
+
+    <TextView
+        android:id="@+id/text_question"
+        android:layout_width="500dp"
+        android:layout_height="54dp"
+        android:text="오늘의 기분은 어떤가요?"
+        android:gravity="center_horizontal|top"
+        android:textAppearance="@style/text_question"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#4F4F4F"
+        android:layout_marginTop="326dp"/>
+
+    <RelativeLayout
+        android:id="@+id/answer_1"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="560dp"
+        android:background="@drawable/q_button">
+
+        <TextView
+            android:id="@+id/text_answer_1"
+            android:layout_width="328dp"
+            android:layout_height="43dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/q1_1"
+            android:textAppearance="@style/text_question_answer"
+            android:lineSpacingExtra="5sp"
+            android:translationY="-2.4sp"
+            android:gravity="center" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/answer_2"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="680dp"
+        android:background="@drawable/q_button">
+
+        <TextView
+            android:id="@+id/text_answer_2"
+            android:layout_width="328dp"
+            android:layout_height="43dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/q1_1"
+            android:textAppearance="@style/text_question_answer"
+            android:lineSpacingExtra="5sp"
+            android:translationY="-2.4sp"
+            android:gravity="center" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/answer_3"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="800dp"
+        android:background="@drawable/q_button">
+
+        <TextView
+            android:id="@+id/text_answer_3"
+            android:layout_width="328dp"
+            android:layout_height="43dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/q1_1"
+            android:textAppearance="@style/text_question_answer"
+            android:lineSpacingExtra="5sp"
+            android:translationY="-2.4sp"
+            android:gravity="center" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/answer_4"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="920dp"
+        android:background="@drawable/q_button">
+
+        <TextView
+            android:id="@+id/text_answer_4"
+            android:layout_width="328dp"
+            android:layout_height="43dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/q1_1"
+            android:textAppearance="@style/text_question_answer"
+            android:lineSpacingExtra="5sp"
+            android:translationY="-2.4sp"
+            android:gravity="center" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/some_id"
+        android:layout_width="328dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="236dp"
+        android:textSize="24sp"
+        android:textColor="#33000000"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1238dp"
+        android:fontFamily="@font/pretendard_bold"
+        android:gravity="center"
+        android:text="@string/go_first_page" />
+
+</RelativeLayout>
