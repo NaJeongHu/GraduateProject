@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/frame"
+        android:layout_width="376.81dp"
+        android:layout_height="289.18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="397dp"
+        android:clipToOutline="true"
+        android:background="@drawable/face_tequila"
+        />
+
+    <TextView
+        android:id="@+id/tequila_sun"
+        android:layout_width="392dp"
+        android:layout_height="216dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="740dp"
+        android:fontFamily="@font/dxhanlgrumstd_regular"
+        android:textSize="80dp"
+        android:textColor="#EF7E25"
+        android:text="TEQUILA\nSUNRISE"
+        android:lineSpacingExtra="20sp"
+        android:gravity="center"
+        />
+
+    <View
+        android:id="@+id/grasshopper"
+        android:layout_width="591dp"
+        android:layout_height="1083dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="209dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-68dp"
+        android:background="@drawable/tequila_sunrise"
+        />
+
+</RelativeLayout>

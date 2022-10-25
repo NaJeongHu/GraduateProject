@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/frame"
+        android:layout_width="403.6dp"
+        android:layout_height="247.59dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="497dp"
+        android:clipToOutline="true"
+        android:background="@drawable/face_violet"
+        />
+
+    <TextView
+        android:id="@+id/text_grasshopper"
+        android:layout_width="322dp"
+        android:layout_height="108dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="336dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="755dp"
+        android:fontFamily="@font/dxhanlgrumstd_regular"
+        android:textSize="80dp"
+        android:textColor="#BB8FC0"
+        android:text="VIOLET"
+        android:lineSpacingExtra="20sp"
+        android:gravity="center"
+        />
+
+    <View
+        android:id="@+id/grasshopper"
+        android:layout_width="705dp"
+        android:layout_height="1189dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="175dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="7.8dp"
+        android:background="@drawable/violet"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/frame"
+        android:layout_width="428.47dp"
+        android:layout_height="251.23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="439dp"
+        android:clipToOutline="true"
+        android:background="@drawable/blue_face"
+        />
+
+    <TextView
+        android:id="@+id/blue_hawaii"
+        android:layout_width="468dp"
+        android:layout_height="216dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="740dp"
+        android:fontFamily="@font/dxhanlgrumstd_regular"
+        android:textSize="80dp"
+        android:textColor="#5BCCD8"
+        android:text="BLUE\nHAWAIIAN"
+        android:lineSpacingExtra="20sp"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/blue_hawaiian"
+        android:layout_width="579dp"
+        android:layout_height="1118dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="221dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/blue_hawaiian" />
+
+</RelativeLayout>

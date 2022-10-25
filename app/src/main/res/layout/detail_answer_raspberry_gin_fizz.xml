@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/frame"
+        android:layout_width="389.06dp"
+        android:layout_height="274.95dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="368dp"
+        android:clipToOutline="true"
+        android:background="@drawable/face_raspberry_ginfizz"
+        />
+
+    <TextView
+        android:id="@+id/text_grasshopper"
+        android:layout_width="551dp"
+        android:layout_height="216dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="740dp"
+        android:fontFamily="@font/dxhanlgrumstd_regular"
+        android:textSize="80dp"
+        android:textColor="#DB465C"
+        android:text="RASPBERRY\nGIN FIZZ"
+        android:lineSpacingExtra="20sp"
+        android:gravity="left"
+        />
+
+    <View
+        android:id="@+id/grasshopper"
+        android:layout_width="566dp"
+        android:layout_height="1025dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="234dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-30dp"
+        android:background="@drawable/raspberry_gin"
+        />
+
+</RelativeLayout>
