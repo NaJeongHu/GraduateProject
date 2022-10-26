@@ -208,7 +208,7 @@
     </RelativeLayout>
 
     <TextView
-        android:id="@+id/some_id"
+        android:id="@+id/go_back"
         android:layout_width="328dp"
         android:layout_height="32dp"
         android:layout_alignParentLeft="true"

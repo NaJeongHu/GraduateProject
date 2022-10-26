@@ -6,41 +6,41 @@
 
     <RelativeLayout
         android:id="@+id/frame"
-        android:layout_width="415.54dp"
-        android:layout_height="242.92dp"
+        android:layout_width="410.59dp"
+        android:layout_height="308.29dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="52dp"
+        android:layout_marginLeft="-32dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="511dp"
+        android:layout_marginTop="327dp"
         android:clipToOutline="true"
-        android:background="@drawable/face_grass"
+        android:background="@drawable/face_mint_julep"
         />
 
     <TextView
         android:id="@+id/text_grasshopper"
-        android:layout_width="680dp"
-        android:layout_height="108dp"
+        android:layout_width="272dp"
+        android:layout_height="216dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="60dp"
+        android:layout_marginLeft="140dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="844dp"
+        android:layout_marginTop="702dp"
         android:fontFamily="@font/dxhanlgrumstd_regular"
         android:textSize="80dp"
-        android:textColor="#7CC4AC"
-        android:text="GRASSHOPPER"
+        android:textColor="#F49B24"
+        android:text="MINT\nJULEP"
         android:lineSpacingExtra="20sp"
-        android:gravity="center"
+        android:gravity="left"
         />
 
     <View
         android:id="@+id/grasshopper"
-        android:layout_width="693dp"
-        android:layout_height="874dp"
+        android:layout_width="561dp"
+        android:layout_height="1034dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="175dp"
+        android:layout_marginLeft="239dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="141.36dp"
-        android:background="@drawable/grasshopper"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/mint_julep"
         />
 
 </RelativeLayout>

@@ -6,41 +6,41 @@
 
     <RelativeLayout
         android:id="@+id/frame"
-        android:layout_width="415.54dp"
-        android:layout_height="242.92dp"
+        android:layout_width="437.43dp"
+        android:layout_height="291dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="52dp"
+        android:layout_marginLeft="-26dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="511dp"
+        android:layout_marginTop="456dp"
         android:clipToOutline="true"
-        android:background="@drawable/face_grass"
+        android:background="@drawable/face_negroni"
         />
 
     <TextView
         android:id="@+id/text_grasshopper"
-        android:layout_width="680dp"
+        android:layout_width="405dp"
         android:layout_height="108dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="60dp"
+        android:layout_marginLeft="45dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="844dp"
+        android:layout_marginTop="815dp"
         android:fontFamily="@font/dxhanlgrumstd_regular"
         android:textSize="80dp"
-        android:textColor="#7CC4AC"
-        android:text="GRASSHOPPER"
+        android:textColor="#F49B24"
+        android:text="NEGRONI"
         android:lineSpacingExtra="20sp"
         android:gravity="center"
         />
 
     <View
         android:id="@+id/grasshopper"
-        android:layout_width="693dp"
-        android:layout_height="874dp"
+        android:layout_width="499dp"
+        android:layout_height="1008dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="175dp"
+        android:layout_marginLeft="301dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="141.36dp"
-        android:background="@drawable/grasshopper"
+        android:layout_marginTop="100.36dp"
+        android:background="@drawable/negroni"
         />
 
 </RelativeLayout>

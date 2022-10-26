@@ -6,41 +6,41 @@
 
     <RelativeLayout
         android:id="@+id/frame"
-        android:layout_width="415.54dp"
-        android:layout_height="242.92dp"
+        android:layout_width="400.48dp"
+        android:layout_height="212.67dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="52dp"
+        android:layout_marginLeft="-25dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="511dp"
+        android:layout_marginTop="441dp"
         android:clipToOutline="true"
-        android:background="@drawable/face_grass"
+        android:background="@drawable/face_irish_coffee"
         />
 
     <TextView
         android:id="@+id/text_grasshopper"
-        android:layout_width="680dp"
-        android:layout_height="108dp"
+        android:layout_width="348dp"
+        android:layout_height="216dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="60dp"
+        android:layout_marginLeft="130dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="844dp"
+        android:layout_marginTop="722dp"
         android:fontFamily="@font/dxhanlgrumstd_regular"
         android:textSize="80dp"
-        android:textColor="#7CC4AC"
-        android:text="GRASSHOPPER"
+        android:textColor="#857259"
+        android:text="IRISH\nCOFFEE"
         android:lineSpacingExtra="20sp"
-        android:gravity="center"
+        android:gravity="left"
         />
 
     <View
         android:id="@+id/grasshopper"
-        android:layout_width="693dp"
-        android:layout_height="874dp"
+        android:layout_width="580dp"
+        android:layout_height="1082dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="175dp"
+        android:layout_marginLeft="220dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="141.36dp"
-        android:background="@drawable/grasshopper"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/irish_coffee"
         />
 
 </RelativeLayout>

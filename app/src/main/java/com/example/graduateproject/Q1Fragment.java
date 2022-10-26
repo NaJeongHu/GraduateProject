@@ -18,6 +18,7 @@ public class Q1Fragment extends Fragment implements View.OnClickListener{
     private RelativeLayout a1, a2, a3, a4;
     private TextView text_answer_1, text_answer_2, text_answer_3, text_answer_4;
     private TextView text_question;
+    private TextView go_back;
     private ImageView circle_indicator_1, circle_indicator_2, circle_indicator_3, circle_indicator_4,
             circle_indicator_5, circle_indicator_6, circle_indicator_7, circle_indicator_8;
 
@@ -47,6 +48,7 @@ public class Q1Fragment extends Fragment implements View.OnClickListener{
         text_answer_2 = view.findViewById(R.id.text_answer_2);
         text_answer_3 = view.findViewById(R.id.text_answer_3);
         text_answer_4 = view.findViewById(R.id.text_answer_4);
+        go_back = view.findViewById(R.id.go_back);
 
         text_answer_1.setText(getString(R.string.q1_1));
         text_answer_2.setText(getString(R.string.q1_2));
@@ -62,6 +64,7 @@ public class Q1Fragment extends Fragment implements View.OnClickListener{
         a2.setOnClickListener(this);
         a3.setOnClickListener(this);
         a4.setOnClickListener(this);
+        go_back.setOnClickListener(this);
 
         return view;
     }
@@ -100,6 +103,10 @@ public class Q1Fragment extends Fragment implements View.OnClickListener{
                 PreferenceManager.setInt(getContext(),"10",PreferenceManager.getInt(getContext(),"10") + 1);
                 PreferenceManager.setInt(getContext(),"11",PreferenceManager.getInt(getContext(),"11") + 1);
                 ((QuestionActivity)getActivity()).FragmentView(2);
+                break;
+
+            case R.id.go_back:
+                ((QuestionActivity)getActivity()).goBack();
                 break;
         }
     }

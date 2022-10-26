@@ -190,6 +190,36 @@
                     android:id="@+id/detail_violet"
                     android:visibility="gone"/>
 
+                <include
+                    layout="@layout/detail_answer_mogito"
+                    android:id="@+id/detail_mogito"
+                    android:visibility="gone"/>
+
+                <include
+                    layout="@layout/detail_answer_mint_julep"
+                    android:id="@+id/detail_mint_julep"
+                    android:visibility="gone"/>
+
+                <include
+                    layout="@layout/detail_answer_clover_club"
+                    android:id="@+id/detail_clover_club"
+                    android:visibility="gone"/>
+
+                <include
+                    layout="@layout/detail_answer_dry_martini"
+                    android:id="@+id/detail_martini"
+                    android:visibility="gone"/>
+
+                <include
+                    layout="@layout/detail_answer_negroni"
+                    android:id="@+id/detail_negroni"
+                    android:visibility="gone"/>
+
+                <include
+                    layout="@layout/detail_answer_irish_coffee"
+                    android:id="@+id/detail_irish"
+                    android:visibility="gone"/>
+
             </RelativeLayout>
 
             <androidx.cardview.widget.CardView

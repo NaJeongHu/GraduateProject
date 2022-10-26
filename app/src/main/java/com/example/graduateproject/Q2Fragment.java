@@ -15,6 +15,7 @@ import androidx.fragment.app.Fragment;
 public class Q2Fragment extends Fragment implements View.OnClickListener{
 
     private RelativeLayout q_back;
+    private TextView go_back;
     private RelativeLayout a1, a2, a3, a4;
     private TextView text_answer_1, text_answer_2, text_answer_3, text_answer_4;
     private TextView text_question;
@@ -48,6 +49,7 @@ public class Q2Fragment extends Fragment implements View.OnClickListener{
         text_answer_2 = view.findViewById(R.id.text_answer_2);
         text_answer_3 = view.findViewById(R.id.text_answer_3);
         text_answer_4 = view.findViewById(R.id.text_answer_4);
+        go_back = view.findViewById(R.id.go_back);
 
         text_answer_1.setText(getString(R.string.q2_1));
         text_answer_2.setText(getString(R.string.q2_2));
@@ -63,6 +65,7 @@ public class Q2Fragment extends Fragment implements View.OnClickListener{
         a2.setOnClickListener(this);
         a3.setOnClickListener(this);
         a4.setOnClickListener(this);
+        go_back.setOnClickListener(this);
 
         return view;
     }
@@ -101,6 +104,10 @@ public class Q2Fragment extends Fragment implements View.OnClickListener{
                 PreferenceManager.setInt(getContext(),"5",PreferenceManager.getInt(getContext(),"5") + 1);
                 PreferenceManager.setInt(getContext(),"11",PreferenceManager.getInt(getContext(),"11") + 1);
                 ((QuestionActivity)getActivity()).FragmentView(3);
+                break;
+
+            case R.id.go_back:
+                ((QuestionActivity)getActivity()).goBack();
                 break;
         }
     }

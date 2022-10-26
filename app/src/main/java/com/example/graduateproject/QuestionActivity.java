@@ -3,6 +3,7 @@ package com.example.graduateproject;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 public class QuestionActivity extends AppCompatActivity {
@@ -26,6 +27,11 @@ public class QuestionActivity extends AppCompatActivity {
         PreferenceManager.setInt(this,"12",0);
 
         FragmentView(1);
+    }
+    
+    public void goBack() {
+        Intent intent = new Intent(getApplicationContext(), IntroActivity.class);
+        startActivity(intent);
     }
 
     public void FragmentView(int fragment){
