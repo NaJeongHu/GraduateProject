@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/answer_coordinator"
     android:orientation="vertical"
     android:background="#EAFFFE"
     android:layout_width="match_parent"
@@ -45,7 +46,7 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginTop="125dp"
                     android:fontFamily="@font/dxhanlgrumstd_regular"
-                    android:textSize="40sp"
+                    android:textSize="40dp"
                     android:textColor="#5BCCD8"
                     android:text="하와이의 향취와 낭만이 깃든"
                     android:lineSpacingExtra="-26sp"
@@ -59,7 +60,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_alignParentTop="true"
                     android:layout_marginTop="1006dp"
-                    android:background="@drawable/blue_rectangle_first" />
+                    android:background="@drawable/_rectangle_first1" />
 
                 <TextView
                     android:id="@+id/rectangle_first_title"
@@ -70,7 +71,7 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginTop="1042dp"
                     android:fontFamily="@font/dxhanlgrumstd_regular"
-                    android:textSize="32sp"
+                    android:textSize="32dp"
                     android:textColor="#5BCCD8"
                     android:gravity="center"
                     android:text="#열대 느낌_물씬  #상큼한  #여름"
@@ -85,8 +86,8 @@
                     android:layout_marginLeft="77dp"
                     android:layout_alignParentTop="true"
                     android:layout_marginTop="1130dp"
-                    android:fontFamily="@font/dxhanlgrumstd_regular"
-                    android:textSize="24sp"
+                    android:fontFamily="@font/pretendard_bold"
+                    android:textSize="24dp"
                     android:textColor="#5BCCD8"
                     android:gravity="center"
                     android:text="qmffnqmffn"
@@ -102,11 +103,11 @@
                     android:layout_marginLeft="20dp"
                     android:layout_alignParentTop="true"
                     android:layout_marginTop="1303dp"
-                    android:background="@drawable/blue_rectangle_second"
+                    android:background="@drawable/_rectangle_second1"
                     />
 
                 <TextView
-                    android:id="@+id/some_id"
+                    android:id="@+id/way"
                     android:layout_width="646dp"
                     android:layout_height="43dp"
                     android:layout_alignParentLeft="true"
@@ -114,7 +115,7 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginTop="1351dp"
                     android:fontFamily="@font/dxhanlgrumstd_regular"
-                    android:textSize="32sp"
+                    android:textSize="32dp"
                     android:textColor="#5BCCD8"
                     android:gravity="center"
                     android:text="제조 방법"
@@ -122,37 +123,34 @@
                     />
 
                 <TextView
-                    android:id="@+id/ml_30ml_30m"
+                    android:id="@+id/how_to_make"
                     android:layout_width="646dp"
                     android:layout_height="160dp"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="77dp"
                     android:layout_alignParentTop="true"
                     android:layout_marginTop="1439dp"
-                    android:fontFamily="@font/dxhanlgrumstd_regular"
-                    android:textSize="24sp"
-                    android:text="1. 크러시드 아이스, 라이트 럼 30ml, 블루 큐라소 30ml, 말리부 럼 30ml, 파인애플주스 60ml를 블렌더에 넣어줘요.\n
-2. 10초 정도 갈아준 후 글라스에 따라줘요.\n
-3. 칵테일 픽으로 체리와 웨지 파인애플을 올려 장식해요."
+                    android:fontFamily="@font/pretendard_bold"
+                    android:textSize="24dp"
                     android:textColor="#5BCCD8"
-                    android:lineSpacingExtra="15sp"
+                    android:lineSpacingExtra="4sp"
                     android:translationY="-1.8sp"
                     android:gravity="top"
                     />
 
                 <View
-                    android:id="@+id/rectangle_8"
+                    android:id="@+id/rectangle_third"
                     android:layout_width="760dp"
                     android:layout_height="349dp"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="20dp"
                     android:layout_alignParentTop="true"
                     android:layout_marginTop="1666dp"
-                    android:background="@drawable/blue_rectangle_third"
+                    android:background="@drawable/_rectangle_third1"
                     />
 
                 <View
-                    android:id="@+id/group_10"
+                    android:id="@+id/last_content"
                     android:layout_width="648dp"
                     android:layout_height="244dp"
                     android:layout_alignParentLeft="true"
@@ -190,33 +188,32 @@
                 <include
                     layout="@layout/detail_answer_violet"
                     android:id="@+id/detail_violet"
-                    android:visibility="visible"/>
+                    android:visibility="gone"/>
 
             </RelativeLayout>
 
-            <RelativeLayout
-                android:id="@+id/end_test"
+            <androidx.cardview.widget.CardView
+                android:id="@+id/end_button"
                 android:layout_width="760dp"
                 android:layout_height="100dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
-                android:background="@drawable/blue_end_test">
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="#5BCCD8">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="32dp"
                     android:gravity="center"
+                    android:layout_gravity="center"
                     android:text="테스트 종료하기"
-                    android:textSize="24sp"
+                    android:textSize="24dp"
                     android:textColor="#FFFFFF"
-                    android:fontFamily="@font/pretendard_bold"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentLeft="true"/>
+                    android:fontFamily="@font/pretendard_bold"/>
 
-            </RelativeLayout>
+            </androidx.cardview.widget.CardView>
 
         </LinearLayout>
 

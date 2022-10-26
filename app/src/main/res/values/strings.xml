@@ -1,57 +1,160 @@
 <resources>
-    <string name="app_name">GraduateProject</string>
+    <string name="app_name">곽테일</string>
 
-    <string name="q1">오늘의 기분은 어떤가요?</string>
-    <string name="q2">지금 듣고 싶은 노래는?</string>
-    <string name="q3">지금 순간이동을 할 수 있다면?</string>
-    <string name="q4">지금 당신에게 힘이 돼주는 음료는?</string>
-    <string name="q5">오늘 당신을 표현하는 단어는?</string>
-    <string name="q6">오늘 당신의 무드는?</string>
-    <string name="q7">오늘따라 만지고 싶은 촉감은?</string>
-    <string name="q8">오늘 당신을 표현하는 향기는? </string>
+    <string name="q1">오늘의 기분은 어떤가요? </string>
+    <string name="q2">오늘 듣고 싶은 노래는? </string>
+    <string name="q3">오늘 하루 순간이동 능력이 생긴다면? </string>
+    <string name="q4">오늘의 당신의 고민거리는? </string>
+    <string name="q5">오늘 당신을 표현하는 단어는? </string>
+    <string name="q6">오늘 당신의 무드는? </string>
+    <string name="q7">오늘 당신을 과일로 표현한다면? </string>
+    <string name="q8">오늘 당신이 동물로 변한다면? </string>
 
     <string name="q1_1">평온해</string>
     <string name="q1_2">행복해</string>
     <string name="q1_3">우울해</string>
-    <string name="q1_4">흥분돼</string>
+    <string name="q1_4">심쿵해</string>
 
     <string name="q2_1">재즈</string>
-    <string name="q2_2">댄스</string>
-    <string name="q2_3">힙합</string>
+    <string name="q2_2">발라드</string>
+    <string name="q2_3">댄스</string>
     <string name="q2_4">락</string>
 
-    <string name="q3_1">카페</string>
-    <string name="q3_2">놀이동산</string>
-    <string name="q3_3">산과 바다</string>
-    <string name="q3_4">공연장</string>
+    <string name="q3_1">무인도</string>
+    <string name="q3_2">유럽여행</string>
+    <string name="q3_3">휴양지</string>
+    <string name="q3_4">맛집투어</string>
 
-    <string name="q4_1">달달한 라떼</string>
-    <string name="q4_2">에이드</string>
-    <string name="q4_3">차</string>
-    <string name="q4_4">아메리카노</string>
+    <string name="q4_1">인간관계</string>
+    <string name="q4_2">진로</string>
+    <string name="q4_3">건강</string>
+    <string name="q4_4">금전</string>
 
     <string name="q5_1">반짝반짝</string>
-    <string name="q5_2">둥실둥실</string>
-    <string name="q5_3">성큼성큼</string>
-    <string name="q5_4">두근두근</string>
+    <string name="q5_2">흔들흔들</string>
+    <string name="q5_3">엉금엉금</string>
+    <string name="q5_4">데굴데굴</string>
 
     <string name="q6_1">따사로운 햇살</string>
     <string name="q6_2">시원한 바람</string>
     <string name="q6_3">부슬부슬 내리는 비</string>
-    <string name="q6_4">코끝이 시린 공기</string>
+    <string name="q6_4">코끝이 시린 눈</string>
 
-    <string name="q7_1">보들</string>
-    <string name="q7_2">매끈</string>
-    <string name="q7_3">촉촉</string>
-    <string name="q7_4">바삭</string>
+    <string name="q7_1">사과</string>
+    <string name="q7_2">체리</string>
+    <string name="q7_3">레몬</string>
+    <string name="q7_4">배</string>
 
-    <string name="q8_1">머스크 향</string>
-    <string name="q8_2">그린 향</string>
-    <string name="q8_3">시트러스 향</string>
-    <string name="q8_4">우디 향</string>
+    <string name="q8_1">강아지</string>
+    <string name="q8_2">새</string>
+    <string name="q8_3">양</string>
+    <string name="q8_4">고양이</string>
+
 
     <string name="go_first_page">처음으로</string>
 
     <string name="loading_text">당신을 위한 칵테일을\n제조중이예요</string>
+
+    <string name="answer_title_1">하와이의 향취와 낭만이 깃든</string>
+    <string name="answer_title_2">산뜻한 부드러움을 가진</string>
+    <string name="answer_title_3">일출을 그대로 담은</string>
+    <string name="answer_title_4">첫사랑이 생각나는</string>
+    <string name="answer_title_5">젊은 에너지 가진</string>
+    <string name="answer_title_6">향기가 매력적인</string>
+    <string name="answer_title_7">모히또에서 몰디브 한 잔 할래?</string>
+    <string name="answer_title_8">Beauty outside, Beast Inside</string>
+    <string name="answer_title_9">마지막 한 방울까지 맛있는</string>
+    <string name="answer_title_10">좋은 것은 변하지 않는</string>
+    <string name="answer_title_11">혼자만 알고 싶은</string>
+    <string name="answer_title_12">마음까지 따뜻한</string>
+
+
+    <string name="answer_text_hashtag_1">#열대 느낌_물씬  #상큼한  #여름</string>
+
+    <string name="answer_text_information_1">블루 하와이라는 이름처럼 청량한 맛과 색이 매력적인 칵테일이에요. 과일 주스가 많이 들어가기 때문에 도수에 비해 술맛이 적게 나고 달콤해 가볍게 마실 수 있어요.</string>
+
+    <string name="answer_text_recipe_1">1. 크러시드 아이스, 라이트 럼 30ml, 블루 큐라소 30ml, 말리부 럼 30ml, 파인애플주스 60ml를 블렌더에 넣어줘요.\n2. 10초 정도 갈아준 후 글라스에 따라줘요.\n3. 칵테일 픽으로 체리와 웨지 파인애플을 올려 장식해요.</string>
+
+
+    <string name="answer_text_hashtag_2">#민트초코 #디저트 칵테일 #달콤한</string>
+
+    <string name="answer_text_information_2">메뚜기라는 이름을 가진 민트색 칵테일이에요. 민트의 시원하고 알싸한 향과 카카오의 달콤한 맛이 하나로 합쳐져
+독특한 맛이 난답니다. 도수에 비해 술맛이 약해 가볍게 마실 수 있어요.</string>
+
+    <string name="answer_text_recipe_2">1. 셰이커에 얼음, 민트 리큐르 45ml, 카카오 리큐르 45ml, 우유 45ml를 넣고 재료가 잘 섞이도록 충분히 흔들어요.\n2. 잔에 붓고 스피어민트를 올려 장식해요.\n3. 기호에 따라 얇게 썬 초콜릿 조각을 올려도 좋아요.</string>
+
+
+    <string name="answer_text_hashtag_3">#상큼한_일출 #아름다운 #생각보다_쉽다</string>
+
+    <string name="answer_text_information_3">아름다운 일출을 칵텡일에 그대로 담은 테킬라 선라이즈. 오렌지주스와 붉은색 그레나딘 시럽이 멋진 그라데이션을 만들어요. 도수가 높지 않고 맛도 달콤해 가볍게 마시기 좋아요.</string>
+
+    <string name="answer_text_recipe_3">1. 잔에 얼음을 넣고 테킬라와 오렌지주스를 넣고 바 스푼으로 가볍게 저어줘요\n2. 그레나딘 시럽을 천천히 부어 잔 바닥으로 가라앉혀요\n3. 오렌지 슬라이스를 올려 장식해요</string>
+
+
+    <string name="answer_text_hashtag_4">#7월의 칵테일 #빨간_맛 #상큼한</string>
+
+    <string name="answer_text_information_4">라즈베리 진피즈는 진, 라즈베리, 레몬주스, 탄산수가 더해져 상큼하고 산뜻한 맛이 나요. 라즈베리를 으깨 넣어 신맛이 강하기 때문에 설탕을 넉넉히 넣는 것도 맛있어요.</string>
+
+    <string name="answer_text_recipe_4">1. 셰이커에 라즈베리 1/2컵, 레몬주스 15ml, 설탕 4작은술을 넣고 으깨요. 얼음과 진 45ml을 넣고 잘 흔들어요.\n2. 얼음을 채운 찬에 스트레이너를 대고 따라줘요.\n3. 잔에 탄산수를 부어 잔을 채워요.</string>
+
+
+
+    <string name="answer_text_hashtag_5">#프루티한 #묵직한 #대표적인</string>
+
+    <string name="answer_text_information_5">묵직한 맛과 향을 가진 브랜디에 트리플 색과 레몬주스로 상큼한 맛을 더한 칵테일이에요. 도수가 높은 편이지만 새콤달콤한 맛 때문에 비교적 쉽게 마실 수 있어요.</string>
+
+    <string name="answer_text_recipe_5">1. 셰이커에 얼음과 브랜디 30ml, 트리플 섹 15ml, 레몬주스 15ml를 넣고 잘 흔들어요.\n2. 스트레이너를 이용해 잔에 따라줘요. 기호에 따라 레몬 필을 올려 장식해요.</string>
+
+
+    <string name="answer_text_hashtag_6">#라벤더 #향기로운 #새콤달콤</string>
+
+    <string name="answer_text_information_6">진한 꽃 향기가 매력적인 플로럴 칵테일이에요. 파르페 아무르가 가진 제비꽃 향에 라벤더가 더해져 향긋하고 깔끔하면서도 새콤달콤한 맛이 나요. 기분전환용 칵테일로 추천합니다.</string>
+
+    <string name="answer_text_recipe_6">1. 셰이커에 진 30ml, 파르페 아무르 10ml, 라임주스 15ml, 레몬주스 15ml, 라벤더 시럽 15ml, 앙고스투라 비터 5~6방울을 넣어줍니다.\n2. 재료가 고루 섞이도록 잘 흔들어 잔에 따릅니다.</string>
+
+
+    <string name="answer_text_hashtag_7">#대표적인 #상큼청량한 #여름_칵테일</string>
+
+    <string name="answer_text_information_7">향긋한 민트와 상큼한 라임, 탄산수가 더해진 여름철 대표 칵테일. 기호에 따라 청포도나 자몽 같은 과일을 더해도 맛있어요. 라임, 민트는 너무 많이 으깨면 쓴맛이 날 수도 있으니 가볍게 으깨세요.</string>
+
+    <string name="answer_text_recipe_7">1. 라임은 반을 잘라 반은 즙을 내고 나머지 반은 적당한 크기로 잘라요.\n2. 잔에 애플민트, 설탕 3작은 술, 라임즙, 자른 라임을 넣고 칵테일 머들로로 가볍게 으깨요.\n3. 잔에 얼음을 넣고 럼 45ml과 탄산수 90ml를 붓고 가볍게 젓어요.</string>
+
+
+    <string name="answer_text_hashtag_8">#향긋한 #달콤한 #일상_환기</string>
+
+    <string name="answer_text_information_8">으깬 민트에 술과 설탕을 섞어 마시는 음료, 줄렙. 비번위스키의 달고 묵직한 맛에 민트의 시원한 맛이 난답니다. 도수가 상당히 높기 때문에 차가운 탄산수를 넣어 마셔도 좋아요.</string>
+
+    <string name="answer_text_recipe_8">1. 잔에 스피어민트, 설탕을 넣고 칵테일 머들로로 가볍게 으깨요.\n2. 비번위스키 60ml를 붓고 잘게 부순 얼음을 넣어요.\n3. 음료가 차가워질 때까지 젓고 오렌지 슬라이스와 스피어민트를 올려 장식해요.</string>
+
+
+    <string name="answer_text_hashtag_9">#레이디 칵테일 #꿈빛_바텐딩 #솜사탕</string>
+
+    <string name="answer_text_information_9">진한 핑크빛이 매력적인 칵테일이에요. 라즈베리 시럽과 레몬주스가 들어가 산뜻하면서도 부드럽고 깔끔한 맛을 냅니다. 트리플 섹을 조금 추가해도 좋아요.</string>
+
+    <string name="answer_text_recipe_9">1. 셰이커에 얼음과 진 60ml, 라즈베리 시럽22.5ml, 레몬주스15ml,  달걀 흰자 1개를 넣어줘요.\n2. 재료가 잘 섞이도록 8번 정도 힘차게 흔들어줘요.\n3. 스트레이너를 이용해 잔에 따른 뒤 라즈베리로 장식해요.</string>
+
+
+
+    <string name="answer_text_hashtag_10">#칵테일_왕 #섬세한 맛 #고도수</string>
+
+    <string name="answer_text_information_10">칵테일의 왕이라고 불리는 마티니. 쓴맛이 강하지만 향긋하고 깔끔해 오랫동안 사랑받는 칵테일이에요. 드라이 베르무트 대신 스위트 베르무트를 넣으면 달콤한 마티니를 만들 수 있어요.</string>
+
+    <string name="answer_text_recipe_10">1. 믹싱 글라스에 얼음, 진 60ml, 드라이 베르무트 20ml를 넣고 바 스푼으로 가볍게 저어줘요.\n2. 스트레이너를 이용해 잔에 따르고 올리브로 장식해요.</string>
+
+
+    <string name="answer_text_hashtag_11">#달콤쌉쌀한 #강렬한 #불멸의 클래식</string>
+
+    <string name="answer_text_information_11">진과 캄파리의 쌉쌀한 향에 스위트 베르무트가 더해져 달짝지근하면서도 깔끔한 맛이 특징이에요. 가니시로 오렌지 껍질 대신 자몽 껍질을 활용해도 잘 어울려요.</string>
+
+    <string name="answer_text_recipe_11">1. 믹싱 글라스에 얼음과 진 22.5ml, 캄파리 22.5ml, 스위트 베르무트 22.5ml를 넣고 바 스푼으로 저어줘요.\n2. 스트레이너를 이용해 얼음을 채운 잔에 붓고 도톰하게 썬 오렌지 필을 올려 장식해요.</string>
+
+
+    <string name="answer_text_hashtag_12">#겨울_칵테일 #고독함 #분위기 갑</string>
+
+    <string name="answer_text_information_12">그윽한 향의 커피에 아이리시 위스키를 넣어 만든 아이리시 커피. 시럽과 시나몬 파우더를 추가해 달콤함과 향긋함을 더했어요. 추운 날 몸을 녹여주는 칵테일로 그만이에요.</string>
+
+    <string name="answer_text_recipe_12">1. 잔에 아이리시 위스키 45ml, 에스프레소 45ml, 시럽 15ml, 뜨거운 물 90ml를 넣고 바 스푼으로 가볍게 섞어줘요.\n2. 위에 휘핑크림을 조심스럽게 올리고 시나몬 파우더를 뿌려 장식해요.</string>
+
+
 
 </resources>

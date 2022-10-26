@@ -77,20 +77,20 @@ public class Q2Fragment extends Fragment implements View.OnClickListener{
         switch (view.getId()) {
             case R.id.answer_1:
                 PreferenceManager.setInt(getContext(),"1",PreferenceManager.getInt(getContext(),"1") + 1);
-                PreferenceManager.setInt(getContext(),"3",PreferenceManager.getInt(getContext(),"3") + 1);
-                PreferenceManager.setInt(getContext(),"9",PreferenceManager.getInt(getContext(),"9") + 1);
+                PreferenceManager.setInt(getContext(),"7",PreferenceManager.getInt(getContext(),"7") + 1);
+                PreferenceManager.setInt(getContext(),"12",PreferenceManager.getInt(getContext(),"12") + 1);
                 ((QuestionActivity)getActivity()).FragmentView(3);
                 break;
 
             case R.id.answer_2:
                 PreferenceManager.setInt(getContext(),"2",PreferenceManager.getInt(getContext(),"2") + 1);
                 PreferenceManager.setInt(getContext(),"6",PreferenceManager.getInt(getContext(),"6") + 1);
-                PreferenceManager.setInt(getContext(),"12",PreferenceManager.getInt(getContext(),"12") + 1);
+                PreferenceManager.setInt(getContext(),"9",PreferenceManager.getInt(getContext(),"9") + 1);
                 ((QuestionActivity)getActivity()).FragmentView(3);
                 break;
 
             case R.id.answer_3:
-                PreferenceManager.setInt(getContext(),"7",PreferenceManager.getInt(getContext(),"7") + 1);
+                PreferenceManager.setInt(getContext(),"3",PreferenceManager.getInt(getContext(),"3") + 1);
                 PreferenceManager.setInt(getContext(),"8",PreferenceManager.getInt(getContext(),"8") + 1);
                 PreferenceManager.setInt(getContext(),"10",PreferenceManager.getInt(getContext(),"10") + 1);
                 ((QuestionActivity)getActivity()).FragmentView(3);
